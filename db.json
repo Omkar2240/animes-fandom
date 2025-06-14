@@ -1,0 +1,84 @@
+{
+  "animes": [
+    {
+      "id": 1,
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "genre": ["Action", "Adventure", "Fantasy"],
+      "rating": 9.2,
+      "episodes": 64,
+      "year": 2009
+    },
+    {
+      "id": 2,
+      "title": "Attack on Titan",
+      "genre": ["Action", "Drama", "Fantasy"],
+      "rating": 9.1,
+      "episodes": 87,
+      "year": 2013
+    },
+    {
+      "id": 3,
+      "title": "Steins;Gate",
+      "genre": ["Sci-Fi", "Thriller"],
+      "rating": 9.0,
+      "episodes": 24,
+      "year": 2011
+    },
+    {
+      "id": 4,
+      "title": "Death Note",
+      "genre": ["Mystery", "Psychological", "Thriller"],
+      "rating": 8.9,
+      "episodes": 37,
+      "year": 2006
+    },
+    {
+      "id": 5,
+      "title": "Demon Slayer: Kimetsu no Yaiba",
+      "genre": ["Action", "Supernatural"],
+      "rating": 8.7,
+      "episodes": 44,
+      "year": 2019
+    },
+    {
+      "id": 6,
+      "title": "Jujutsu Kaisen",
+      "genre": ["Action", "Dark Fantasy"],
+      "rating": 8.6,
+      "episodes": 47,
+      "year": 2020
+    },
+    {
+      "id": 7,
+      "title": "Hunter x Hunter (2011)",
+      "genre": ["Adventure", "Fantasy", "Action"],
+      "rating": 9.0,
+      "episodes": 148,
+      "year": 2011
+    },
+    {
+      "id": 8,
+      "title": "One Piece",
+      "genre": ["Adventure", "Action", "Comedy"],
+      "rating": 8.8,
+      "episodes": 1000,
+      "year": 1999
+    },
+    {
+      "id": 9,
+      "title": "Mob Psycho 100",
+      "genre": ["Action", "Comedy", "Supernatural"],
+      "rating": 8.5,
+      "episodes": 37,
+      "year": 2016
+    },
+    {
+      "id": 10,
+      "title": "Your Lie in April",
+      "genre": ["Romance", "Drama", "Music"],
+      "rating": 8.7,
+      "episodes": 22,
+      "year": 2014
+    }
+  ]
+}
