@@ -1,36 +1,146 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🎌 AnimeFandom
 
-First, run the development server:
+AnimeFandom is a full-stack web app where users can explore, search, and interact with their favorite anime. Built with **Next.js** on the frontend and **Node.js (Express)** on the backend, this project integrates real anime data from the [Jikan API](https://jikan.moe) and supports features like favorites, fandom comments, and more.
+
+---
+
+## 🚀 Features
+
+- 🌟 Browse Top-Rated Anime
+- 🔍 Search Anime by Name
+- 📄 View Detailed Anime Info (episodes, score, synopsis, etc.)
+- ❤️ Add to Favorites (MongoDB)
+- 💬 Fandom Comments Section
+- 🔐 User Authentication (optional)
+- 🎨 Clean, Responsive UI (Tailwind CSS)
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend**:  
+- [Next.js 14 (App Router)](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Axios](https://axios-http.com)
+
+**Backend**:  
+- [Node.js](https://nodejs.org/)
+- [Express.js](https://expressjs.com)
+- [MongoDB](https://www.mongodb.com/)
+- [Mongoose](https://mongoosejs.com)
+
+**External API**:  
+- [Jikan API (Unofficial MyAnimeList API)](https://docs.api.jikan.moe)
+
+---
+
+## 📁 Project Structure
+
+```
+anime-fandom/
+├── frontend/           # Next.js frontend
+│   ├── app/            # App router pages
+│   ├── components/     # Reusable UI components
+│   └── lib/            # Axios setup, helpers
+├── backend/            # Node.js backend
+│   ├── models/         # Mongoose schemas
+│   ├── routes/         # API routes
+│   └── index.js        # Server entry
+└── README.md
+```
+
+---
+
+## 🧑‍💻 Getting Started
+
+### ⚙️ Prerequisites
+
+- Node.js ≥ 18
+- MongoDB (local or [Atlas](https://www.mongodb.com/cloud/atlas))
+- npm or yarn
+
+---
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/anime-fandom.git
+cd anime-fandom
+```
+
+---
+
+### 2. Start the Backend
+
+```bash
+cd backend
+npm install
+```
+
+Create a `.env` file:
+
+```
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/anime-fandom
+```
+
+Then run:
+
+```bash
+node index.js
+```
+
+API will run at: `http://localhost:5000`
+
+---
+
+### 3. Start the Frontend
+
+```bash
+cd frontend
+npm install
+```
+
+Create a `.env.local` file:
+
+```
+NEXT_PUBLIC_API_URL=http://localhost:5000
+```
+
+Then run:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Frontend will run at: `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📸 Preview (Screenshots)
 
-## Learn More
+> Add screenshots here once available.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔮 Coming Soon
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- ✅ Anime recommendations
+- 🧠 AI-powered suggestion chatbot
+- 📈 Trending analytics with charts
+- 🌙 Dark mode
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by [Your Name](https://github.com/yourusername)
+
+Feel free to open an issue or PR if you have suggestions or contributions!
