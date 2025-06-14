@@ -1,5 +1,5 @@
 
-# 🎌 AnimeFandom
+# 🎌 AnimeFandom (Coming SOON...)
 
 AnimeFandom is a full-stack web app where users can explore, search, and interact with their favorite anime. Built with **Next.js** on the frontend and **Node.js (Express)** on the backend, this project integrates real anime data from the [Jikan API](https://jikan.moe) and supports features like favorites, fandom comments, and more.
 
@@ -141,6 +141,6 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-Made with ❤️ by [Your Name](https://github.com/yourusername)
+Made with ❤️ by [Omkar Ramgirwar](https://github.com/Omkar2240)
 
 Feel free to open an issue or PR if you have suggestions or contributions!
